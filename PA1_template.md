@@ -141,7 +141,7 @@ plot(averageDailySteps ~ interval, data = intervalActivity, type = "l",
      main = "Average number of steps taken during each 5-minute interval")
 ```
 
-![](Untitled_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](instructions_fig/unnamed-chunk-8-1.png)<!-- -->
 
 Finally, we determine which 5-minute interval, on average across all the days in the data set, contains the maximum number of steps.
 
@@ -260,7 +260,7 @@ hist(dailyActivityNoNAs$totalSteps, breaks = 20,
      xlab = "Total number of steps taken each day")
 ```
 
-![](Untitled_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](instructions_fig/unnamed-chunk-15-1.png)<!-- -->
 
 Finally, we calculate the mean and median of the total number of steps taken per day, using the data set with input missing values.
 
@@ -319,4 +319,4 @@ xyplot(averageDailySteps ~ interval | dayType, data = intervalActivityNoNAs, typ
      layout = c(1,2))
 ```
 
-![](Untitled_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![](instructions_fig/unnamed-chunk-18-1.png)<!-- -->
