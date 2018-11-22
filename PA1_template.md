@@ -90,7 +90,7 @@ hist(dailyActivity$totalSteps, breaks = 20,
      xlab = "Total number of steps taken each day")
 ```
 
-![](Untitled_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](Instructions-fig/figure-markdown_github/unnamed-chunk-5-1.png)<!-- -->
 
 Finally, we calculate the mean and median of the total number of steps taken per day.
 
