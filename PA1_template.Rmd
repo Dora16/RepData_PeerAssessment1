@@ -67,8 +67,8 @@ activity$date <- ymd(activity$date)
 
 ## What is mean total number of steps taken per day?
 
-For this part of the assignment, ignore all missing values and 
-first calculate the total number of steps taken per day.
+For this part of the assignment, the missing values in the data set will be ignored.
+We first calculate the total number of steps taken per day.
 
 ```{r echo=TRUE}
 dailyActivity <- activity %>% 
@@ -100,8 +100,9 @@ The median total number of steps taken per day is `r format(medianDailyTotalStep
 
 ## What is the average daily activity pattern?
 
-For this part of the assignment, ignore all missing values and 
-first first calculate the total number of steps taken per interval, averaged across all days.
+For this part of the assignment, the missing values in the data set will be ignored.
+
+We first calculate the total number of steps taken per interval, averaged across all days.
 
 ```{r echo=TRUE}
 intervalActivity <- activity %>% 
